@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    
+}
+
+/*TOPO*/
+
+.topo{    
+    display: flex;
+    box-shadow: 0.5px 0.5px 10px gray;
+   
+   
+}
+
+.logo{
+    width: 80px;
+    height: 60px;
+    align-items: center;   
+    float: left;
+}
+
+.menu{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.menu a{
+    text-decoration: none;
+margin-left: 30px;
+    font-size: 18px;
+    color: #bcd8c4;
+    font-weight: 600;
+
+}
+
+.menu a:hover{
+    color: #98eebe;
+    text-decoration: underline;
+}
+
+.topo .login{
+    display: grid; 
+    align-items: center;    
+    color: #bcd8c4;  
+    border: 2px solid #bcd8c4;
+    text-decoration: none; 
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.login:hover{     
+    color: white;
+    background-color: #bcd8c4;
+}
+
+
+/*CORPO*/
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #bcd8c4;
+}
+
+.corpo{    
+    height: auto;
+    width: auto;     
+    background-size: 10px;
+    border: 1px solid white; 
+    background-image: url('logoTerra.png');    
+    display: grid;
+    justify-content: center;
+    
+}
+
+.painel-noticias{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mini-noticias{
+    width: 350px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #bcd8c4;
+    margin-bottom: 50px;
+    box-shadow: 0.5px 0.5px 10px gray;
+}
+
+.imagens-noticias{
+    width: 350px;
+    height: 300px;    
+    border-radius: 30px 30px 0 0;
+}
+
+
+p{
+    width: auto;
+    padding: 15px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.vejaMais{
+    margin: 0;
+    padding: 0;    
+    color: blue;
+    font-size: 12px;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.footer{
+    color: white;
+    font-size: 12;
+    text-align: center;
+    font-weight: bold;
+    background-color: #bcd8c4;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
